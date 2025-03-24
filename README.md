@@ -1,5 +1,5 @@
 # Dynamic-Stock-Analyzer
-Choose the best stock to invest using LLM at any time based on country.
+Choose the best stock to invest using LLM at any time, based on country.
 
 
 This project compares two stocks based on historical data and financial metrics, providing insights through a Streamlit dashboard.
