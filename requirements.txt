@@ -1,0 +1,7 @@
+pandas
+pyngrok
+requests
+traceback
+yahooquery
+yfinance
+streamlit
