@@ -273,7 +273,7 @@ def generate_conclusion(stock1_name, stock1_info, stock2_name, stock2_info):
     conclusion_text = f'''
     <div style='border: 2px solid #4CAF50; padding: 15px; border-radius: 10px; background-color: #f9f9f9; color:black;'>
         <h3 style='color: #2E8B57;'>📊 Investment Conclusion</h3>
-        <p style='font-size: 16px;'><b>{better_stock}</b> is the better investment based on below calculations using financial metrics.</p>
+        <p style='font-size: 16px;'>Find the better investment based on below calculations using financial metrics.</p>
         <p style='font-size: 16px;'>The <b>MaxDelta</b> function assigns 1 score if higher value between the two stocks for that param else 0</p>
         <p style='font-size: 14px;'>The scoring model, considering Market Cap, P/E Ratio, EPS, and ROE (using scaling), resulted in:</p>
         <p style='font-size: 16px;'>Score = MaxDelta(Market Cap) + MaxDelta(1 / P/E Ratio) + MaxDelta(EPS) + MaxDelta(ROE) </p>
