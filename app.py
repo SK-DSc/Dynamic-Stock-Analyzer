@@ -122,18 +122,18 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
         "Market Cap": stock1_info.get("marketCap", "N/A"),
         "EPS": stock1_info.get("trailingEps", "N/A"),
         "P/E Ratio": stock1_info.get("trailingPE", "N/A"),
-        "ROE (%)": stock1_info.get("returnOnEquity", "N/A")*100 if "returnOnEquity" in stock1_info else "N/A ,
-        "ROA (%)": stock1_info.get("returnOnAssets", "N/A")*100 if "returnOnAssets" in stock1_info else "N/A,
-        "Net Profit Margin (%)": stock1_info.get("profitMargins", "N/A")*100 if "profitMargins" in stock1_info else "N/A,
+        "ROE (%)": stock1_info.get("returnOnEquity", "N/A")*100 if "returnOnEquity" in stock1_info else "N/A" ,
+        "ROA (%)": stock1_info.get("returnOnAssets", "N/A")*100 if "returnOnAssets" in stock1_info else "N/A",
+        "Net Profit Margin (%)": stock1_info.get("profitMargins", "N/A")*100 if "profitMargins" in stock1_info else "N/A",
     }
 
     stock2_data = {
         "Market Cap": stock2_info.get("marketCap", "N/A"),
         "EPS": stock2_info.get("trailingEps", "N/A"),
         "P/E Ratio": stock2_info.get("trailingPE", "N/A"),
-        "ROE (%)": stock2_info.get("returnOnEquity", "N/A")*100 if "returnOnEquity" in stock2_info else "N/A ,
-        "ROA (%)": stock2_info.get("returnOnAssets", "N/A")*100 if "returnOnAssets" in stock2_info else "N/A,
-        "Net Profit Margin (%)": stock2_info.get("profitMargins", "N/A")*100 if "profitMargins" in stock2_info else "N/A,
+        "ROE (%)": stock2_info.get("returnOnEquity", "N/A")*100 if "returnOnEquity" in stock2_info else "N/A" ,
+        "ROA (%)": stock2_info.get("returnOnAssets", "N/A")*100 if "returnOnAssets" in stock2_info else "N/A",
+        "Net Profit Margin (%)": stock2_info.get("profitMargins", "N/A")*100 if "profitMargins" in stock2_info else "N/A",
     }
 
     # Create comparison table
