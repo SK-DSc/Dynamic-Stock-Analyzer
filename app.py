@@ -119,7 +119,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
 
     # Extract relevant metrics, defaulting to 'N/A' if missing
     stock1_data = {
-        "MARKET CAP": stock1_info.get("MarketCap", "N/A"),
+        "MARKET CAP": stock1_info.get("marketCap", "N/A"),
         "EPS": stock1_info.get("trailingEps", "N/A"),
         "P/E Ratio": stock1_info.get("trailingPE", "N/A"),
         "ROE (%)": stock1_info.get("returnOnEquity", "N/A"),
@@ -128,7 +128,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
     }
 
     stock2_data = {
-        "MARKET CAP": stock2_info.get("MarketCap", "N/A"),
+        "MARKET CAP": stock2_info.get("marketCap", "N/A"),
         "EPS": stock2_info.get("trailingEps", "N/A"),
         "P/E Ratio": stock2_info.get("trailingPE", "N/A"),
         "ROE (%)": stock2_info.get("returnOnEquity", "N/A"),
