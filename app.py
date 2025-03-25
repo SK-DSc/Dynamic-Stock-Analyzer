@@ -174,7 +174,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
 
     overall_best = stock1_name if stock1_wins > stock2_wins else stock2_name
     second_best = stock2_name if stock1_wins > stock2_wins else stock1_name
-    st.write(f"### Conclusion: The  **{overall_best}** is having better financial metrics than **{second_best}**.")
+    # st.write(f"### Conclusion: The  **{overall_best}** is having better financial metrics than **{second_best}**.")
 
 
 import requests
