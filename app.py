@@ -109,6 +109,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
 
     # Define metric interpretations
     metric_interpretations = {
+        "MARKET CAP": "Higher is better (indicates stocks risk factor)"
         "EPS": "Higher is better (indicates profitability)",
         "P/E Ratio": "Lower is better (cheaper valuation)",
         "ROE (%)": "Higher is better (profitability efficiency)",
@@ -118,6 +119,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
 
     # Extract relevant metrics, defaulting to 'N/A' if missing
     stock1_data = {
+        "MARKET CAP": stock1_info.get("marketcap", "N/A"),
         "EPS": stock1_info.get("trailingEps", "N/A"),
         "P/E Ratio": stock1_info.get("trailingPE", "N/A"),
         "ROE (%)": stock1_info.get("returnOnEquity", "N/A"),
@@ -126,6 +128,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
     }
 
     stock2_data = {
+        "MARKET CAP": stock2_info.get("marketcap", "N/A"),
         "EPS": stock2_info.get("trailingEps", "N/A"),
         "P/E Ratio": stock2_info.get("trailingPE", "N/A"),
         "ROE (%)": stock2_info.get("returnOnEquity", "N/A"),
