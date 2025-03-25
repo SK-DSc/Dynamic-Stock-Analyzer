@@ -33,11 +33,5 @@ To use `pyngrok`, follow these steps:
 1. **Sign up on Ngrok**: Go to [Ngrok's website](https://ngrok.com/) and create an account.
 2. **Get the API Key**: After signing in, navigate to the "Auth Token" section in the dashboard and copy it.
 
-##### Setting Up Hugging Face API Key
-To use Hugging Face models in this project, follow these steps:
-1. **Create a Hugging Face Account**:  
-   - Visit [Hugging Face](https://huggingface.co/) and sign up or log in.  
-2. **Generate an API Key**:  
-   - Go to **Settings → Access Tokens**.  
-   - Click **New Token**, give it a name, and select **"Read" access**.  
-   - Copy the generated API key.  
+##### Setting Up Deepseek API Key
+ 
