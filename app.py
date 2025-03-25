@@ -109,7 +109,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
 
     # Define metric interpretations
     metric_interpretations = {
-        "MARKET CAP": "Higher is better (indicates stocks risk factor)"
+        "MARKET CAP": "Higher is better (indicates stocks risk factor)",
         "EPS": "Higher is better (indicates profitability)",
         "P/E Ratio": "Lower is better (cheaper valuation)",
         "ROE (%)": "Higher is better (profitability efficiency)",
