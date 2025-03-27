@@ -179,7 +179,7 @@ def compare_stocks(stock1_name, stock1_info, stock2_name, stock2_info):
 
 import requests
 def get_llm_analysis(stock1_name, stock1_info, stock2_name, stock2_info):
-    '''Fetch LLM-based investment insights from Hugging Face API.'''
+    '''Fetch LLM-based investment insights from Deepseek API.'''
     try:
         prompt = f'''
         Analyze and compare {stock1_name} and {stock2_name} as investment opportunities. Output a comprehensive analysis based on financial metrics, market trends, and future growth prospects.
